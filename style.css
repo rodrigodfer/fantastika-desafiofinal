@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    background-color: #252525;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Serif', serif;
+    width: 12vw;
+}
+
+.logoheader{
+    display: flex;
+    height: 5vh;
+}
+
+.titulo{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.socialmedia{
+    justify-content: space-around;
+}
+
+.sessao1{
+    padding-top: 0;
+    background-image: url(./assets/dogrosa2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 130vh;
+}
+
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18%;  
+}
+
+.inauguracao{
+    color: #FFFFFF;
+    font-family: 'Roboto Serif', serif, bold;
+    text-align: center;
+    width: 50vw;
+    font-size: 50px;
+}
+
+.logoimage{
+    align-items: center;
+}
+
+.sessao2{
+    background-image: url(./assets/dogbranco2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 153vh;
+    padding-top: 25%;
+    padding-left: 6%;
+}
+
+.sessao2 h1{
+    font-family: 'Roboto Serif', serif, bold;
+    color: #3A342F;
+    font-size: 49px;
+    padding-bottom: 1%;
+}
+
+.sessao2 p{
+    font-family: 'Roboto', sans-serif;
+    width: 35vw;
+    color: #3A342F;
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+.sessao2 button{
+    background-color: #3A342F;
+    color: #F4F2F3;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 60px;
+    border-style:hidden;
+    cursor: pointer;
+    padding: 1.5%;
+}
+
+.sessao3{
+    background-image: url(./assets/dogpreto2x.png);
+    height: 154vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-left: 60%;
+    padding-top: 15%;
+    padding-right: 5%;  
+}
+
+.sessao3 h1{
+    font-family: 'Roboto Serif', serif, bold;
+    color: #FFFFFF;
+    font-size: 44px;
+    padding-bottom: 3%;
+}
+
+.sessao3 p{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 26px;
+    padding-bottom: 5%;
+}
+
+.sessao3 button{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 60px;
+    border-style:hidden;
+    cursor: pointer;
+    padding: 4%;
+}
+
+.patrocinio{
+    display: flex;
+    justify-content: space-around;
+    height: 17vh;
+    width: 97vw;
+    align-items: center;
+}
+
+.patrocinio h3{
+    color:#FD6A9A;
+    font-family: 'Roboto' serif, italic;
+    padding-left: 100px;
+}
+
+
+.fantastika, .socialmobile{
+    display: none;
+}
+
+footer{
+
+    display: flex;
+    width: 98.7vw;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+    font-family: 'Roboto' serif, 'Regular';
+    
+}
+
+.informacoes{
+    width: 95vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    list-style: none;
+}
+
+.atendimento h2{
+    padding-bottom: 25%;
+}
+
+.sobre h2{
+    padding-bottom: 25%;
+}
+
+.unidades h2{
+    padding-bottom: 25%;
+}
+
+
+@media(max-width:500px){
+    
+    .desktop{
+        display:none
+    }
+
+    .inauguracao{
+        width: 100vw;
+        font-size: 33px;
+        padding-bottom: 25%;
+    }
+
+    .sessao1{
+        background-image: url(./assets/dogrosa.png);
+        background-size: 100%;
+        width: 100vw;
+        height: 72vh;
+        
+    }
+
+    .inauguracao{
+        width: 90vw;
+        height: 10vh;
+        font-size: 35px;
+    }
+
+    .sessao2{
+        background-image: url(./assets/dogbranco.png);
+        background-size: 100%;
+        height: 82vh;
+        padding-top: 19%;
+        padding-left: 5%;
+    }
+
+    .sessao2 h1{
+        width: 65vw;
+        font-size: 30px;
+        padding-bottom: 3%;
+    }
+
+    .sessao2 p{
+        width: 70vw;
+        font-size: 18px;
+        padding-bottom: 3%;
+    }
+
+    .sessao2 button{
+        font-size: 16px;
+        width: 40vw;
+        height: 6vh;
+    }
+
+    .sessao3{
+        background-image: url(./assets/dogpreto.png);
+        background-size: 100%;
+        height: 82vh;
+        padding-top: 20%;
+        padding-left: 5%;
+    }
+
+    .sessao3 h1{
+        width: 73vw;
+        font-size: 27px;
+    }
+
+    .sessao3 p{
+        width: 70vw;
+        font-size: 17px;
+        padding-bottom: 4%;
+    }
+
+    .sessao3 button{
+        font-size: 16px;
+        width: 40vw;
+        height: 6vh;
+        font-weight: bold;
+    }
+
+    .patrocinio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .patrocinio h3{
+        padding-right: 90px;
+    }
+
+    .patrocinio figure{
+        display: flex;
+    }
+
+    footer{
+        background-color: #EB4A7B;
+        height: 120vh;
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding:8%;
+        padding-bottom: 110%;
+    }
+    
+    .fantastika{
+        padding-top: 10%;
+        display: flex;
+        align-items: center;
+        width: 45vw; 
+        justify-content: space-around;
+    }
+
+    .socialmobile{
+        display: block;
+    }    
+
+    .logofooter{
+        display: flex;
+        height: 7vh;
+    }
+
+    .icones{
+        padding-top: 20%;
+    }
+
+    .informacoes{
+        height: 50vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .informacoes li{
+        padding-bottom: 1%;
+    }
+
+    .atendimento h2{
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
+    
+    .sobre h2{
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
+    
+    .unidades h2{
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
+
+
+
+
+
+
+   
+}
+
+
